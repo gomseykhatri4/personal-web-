@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* min-height: 100%; */
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Affiliate_Marketing {
+    position: relative;
+    top: -36px;
+}
+
+.martin {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.categories {
+    border: 1px solid black;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+.categories h2 {
+    padding: 10px;
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.categories div a {
+    color: #333;
+    text-decoration: none;
+    padding: 4px 0px;
+}
+
+@supports (position: sticky) {
+    .is-sticky {
+        position: sticky;
+        top: 0;
+    }
+}
